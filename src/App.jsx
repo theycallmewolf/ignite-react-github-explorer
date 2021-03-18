@@ -1,3 +1,6 @@
 export function App() {
-  return <h1>Hello Wolf!</h1>
+
+  throw new Error('Duuude!! You have broken all this crapy app');
+
+  return <h1>Hello Master Wolf!</h1>
 }
