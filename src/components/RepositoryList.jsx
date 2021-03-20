@@ -4,7 +4,6 @@ const repository = {
   name: 'best-repo-ever',
   description: 'some great description',
   link: 'https://github.com'
-
 }
 
 export function RepositoryList() {
