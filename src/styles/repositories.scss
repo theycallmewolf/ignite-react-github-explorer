@@ -3,27 +3,43 @@ section {
     margin: 40px;
 
     h1 {
-      margin-bottom: 16px;
+      margin-bottom: 64px;
     }
 
     ul {
       list-style: none;
 
       li {
+        padding: 21px;
+        border: 1px solid #e7e7e7;
+        border-radius: 8px;
+        max-width: 360px;
+        box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0);
+        transition: box-shadow 300ms ease-in-out, transform 300ms ease-in-out;
+
         & + li {
-          margin-top: 20px;
+          margin-top: 40px;
+        }
+
+        strong {
+          display: inline-block;
+          margin-bottom: 4px;
         }
 
         p {
           font-size: 14px;
-          color: #444;
+          color: #929292;
         }
 
         a {
           display: inline-block;
-          margin-top: 16px;
           text-decoration: none;
           color: #8257e6;
+        }
+
+        &:hover {
+          box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.4);
+          transform: rotate(-1deg)
         }
 
       }
